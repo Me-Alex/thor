@@ -1,0 +1,12 @@
+{
+  "name": "thor",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev dist",
+    "deploy": "wrangler pages deploy dist"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
